@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [flight-reservation]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="passengers-count-1(failed)">
+    <parameter name="testDataPath" value="test-data/flight-reservation/passenger-1.json"/>
+    <classes>
+      <class name="com.pvaddoc.tests.flightreservation.FlightReservationTest">
+        <methods>
+          <include name="userRegistrationTest"/>
+          <include name="setupConfig"/>
+          <include name="flightsSearchTest"/>
+          <include name="flightSelectionTest"/>
+          <include name="quitDriver"/>
+          <include name="setParameters"/>
+          <include name="registrationConfirmationTest"/>
+          <include name="flightReservationConfirmationTest"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- com.pvaddoc.tests.flightreservation.FlightReservationTest -->
+    </classes>
+  </test> <!-- passengers-count-1(failed) -->
+  <test thread-count="4" parallel="tests" name="passengers-count-3(failed)">
+    <parameter name="testDataPath" value="test-data/flight-reservation/passenger-3.json"/>
+    <classes>
+      <class name="com.pvaddoc.tests.flightreservation.FlightReservationTest">
+        <methods>
+          <include name="userRegistrationTest"/>
+          <include name="setupConfig"/>
+          <include name="flightSelectionTest"/>
+          <include name="flightsSearchTest"/>
+          <include name="quitDriver"/>
+          <include name="setParameters"/>
+          <include name="registrationConfirmationTest"/>
+          <include name="flightReservationConfirmationTest"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- com.pvaddoc.tests.flightreservation.FlightReservationTest -->
+    </classes>
+  </test> <!-- passengers-count-3(failed) -->
+  <test thread-count="4" parallel="tests" name="passengers-count-2(failed)">
+    <parameter name="testDataPath" value="test-data/flight-reservation/passenger-2.json"/>
+    <classes>
+      <class name="com.pvaddoc.tests.flightreservation.FlightReservationTest">
+        <methods>
+          <include name="userRegistrationTest"/>
+          <include name="setupConfig"/>
+          <include name="flightSelectionTest"/>
+          <include name="flightsSearchTest"/>
+          <include name="quitDriver"/>
+          <include name="setParameters"/>
+          <include name="registrationConfirmationTest"/>
+          <include name="flightReservationConfirmationTest"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- com.pvaddoc.tests.flightreservation.FlightReservationTest -->
+    </classes>
+  </test> <!-- passengers-count-2(failed) -->
+  <test thread-count="4" parallel="tests" name="passengers-count-4(failed)">
+    <parameter name="testDataPath" value="test-data/flight-reservation/passenger-4.json"/>
+    <classes>
+      <class name="com.pvaddoc.tests.flightreservation.FlightReservationTest">
+        <methods>
+          <include name="userRegistrationTest"/>
+          <include name="setupConfig"/>
+          <include name="flightsSearchTest"/>
+          <include name="flightSelectionTest"/>
+          <include name="quitDriver"/>
+          <include name="setParameters"/>
+          <include name="registrationConfirmationTest"/>
+          <include name="flightReservationConfirmationTest"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- com.pvaddoc.tests.flightreservation.FlightReservationTest -->
+    </classes>
+  </test> <!-- passengers-count-4(failed) -->
+</suite> <!-- Failed suite [flight-reservation] -->
