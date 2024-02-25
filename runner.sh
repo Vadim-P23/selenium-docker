@@ -33,6 +33,7 @@ done
 
 # At this point, selenium grid should be up!
 echo "Selenium Grid is up and running. Running the test...."
+
 # Start the java command
 java -cp 'libs/*' \
      -Dselenium.grid.enabled=true \
