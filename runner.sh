@@ -40,4 +40,5 @@ java -cp 'libs/*' \
      -Dselenium.grid.hubHost="${HUB_HOST:-hub}" \
      -Dbrowser="${BROWSER:-chrome}" \
      org.testng.TestNG \
-     -threadcount "${THREAD_COUNT:-1}" test-suites/"${TEST_SUITE}"
+     -threadcount "${THREAD_COUNT:-1}" \
+     test-suites/"${TEST_SUITE}"
